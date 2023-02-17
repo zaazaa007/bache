@@ -1,0 +1,30 @@
+
+.grid{
+    display: grid;
+    margin: 20px 57px 20px 57px;
+}
+.img{
+
+ 
+    width:300;
+    height:700;
+}
+
+@media(max-width: 700px){
+    img{
+
+ 
+        width:300;
+        height:400;
+    }
+    .grid{
+        margin: 10px 10px 0px 10px;
+    }
+}
+.left{
+    position: relative;
+    left: 100px;
+}
+.owl-nav{
+    background-color: brown !important;
+}
